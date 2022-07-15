@@ -1,0 +1,31 @@
+.action {
+    position: relative;
+    margin-top: 64px;
+    &__wrapper {
+        width: 824px;
+    }
+    &__title {
+        font-family: 'Standard CT Stencil';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 65px;
+        color: $main-color;
+    }
+    &__descr {
+        display: inline;
+        margin-top: 32px;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        color: $main-color;
+    }
+    img {
+        display: block;
+        position: absolute;
+        top: -60%;
+        right: 0;
+    }
+}

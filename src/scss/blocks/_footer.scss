@@ -1,0 +1,32 @@
+.footer {
+    position: relative;
+    margin-top: 38px;
+    background-color: $main-color;
+    height: 110px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        padding: 34px 0 34px 0;
+        font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 42px;
+        color: #FFFFFF;
+    }
+    &__tel {
+        font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 42px;
+        color: #FFFFFF;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

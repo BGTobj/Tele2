@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'tele2_displayserif-bold';
+	src: url('../fonts/tele2_displayserif-bold.eot');
+	src:
+	     url('../fonts/tele2_displayserif-bold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/tele2_displayserif-bold.woff') format('woff'),
+	     url('../fonts/tele2_displayserif-bold.ttf') format('truetype'),
+	     url('../fonts/tele2_displayserif-bold.svg#tele2_displayserif-bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tele2_displayserif-regular';
+	src: url('../fonts/tele2_displayserif-regular.eot');
+	src:
+	     url('../fonts/tele2_displayserif-regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/tele2_displayserif-regular.woff') format('woff'),
+	     url('../fonts/tele2_displayserif-regular.ttf') format('truetype'),
+	     url('../fonts/tele2_displayserif-regular.svg#tele2_displayserif-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tele2_textsans-bold';
+	src: url('../fonts/tele2_textsans-bold.eot');
+	src:
+	     url('../fonts/tele2_textsans-bold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/tele2_textsans-bold.woff') format('woff'),
+	     url('../fonts/tele2_textsans-bold.ttf') format('truetype'),
+	     url('../fonts/tele2_textsans-bold.svg#tele2_textsans-bold') format('svg');
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'tele2_textsans-regular';
+	src: url('../fonts/tele2_textsans-regular.eot');
+	src:
+	     url('../fonts/tele2_textsans-regular.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/tele2_textsans-regular.woff') format('woff'),
+	     url('../fonts/tele2_textsans-regular.ttf') format('truetype'),
+	     url('../fonts/tele2_textsans-regular.svg#tele2_textsans-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'StandardCTStencil Bold';
+	src:
+	     url('../fonts/standardctstencil_bold-webfont.woff') format('woff'),
+	     url('../fonts/StandardStencil-Bold_media.otf') format('opentype'),
+	     url('../fonts/StandardCTStencil Bold.svg#StandardCTStencil Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

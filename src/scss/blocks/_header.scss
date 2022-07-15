@@ -1,0 +1,59 @@
+.header {
+    position: relative;
+    min-height: 769px;
+    background-color: $main_color;
+    /* display: flex; */
+}
+.menu {
+    padding-top: 45px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    &__link {
+        font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+        &:hover {
+            color: #FFFFFF;
+        }
+    }
+}
+.info {
+    margin-top: 32px;
+}
+.line {
+    margin: 0 0 0 32px;
+    display: inline-block;
+    vertical-align: top;
+    width: 0px;
+    height: 550px;
+    border: 1px solid #FFFFFF;
+
+}
+.text {
+    margin: 12px 0 0 20px;
+    width: 396px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Tele2 TextSans Web SHORT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+    p {
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+}
+.registration {
+    margin-top: 32px;
+    font-family: 'Tele2 DisplaySerif';
+    font-size: 31px;
+    line-height: 42px;
+}

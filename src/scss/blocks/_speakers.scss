@@ -1,0 +1,79 @@
+.speakers {
+    padding: 180px 0 180px 0;
+    margin-top: 150px;
+    height: 1096px;
+    background-color: $main-color;
+    transform: skewY(-5deg);
+    &__skew {
+        transform: skewY(5deg);
+    }
+    &__title {
+        font-family: 'Standard CT Stencil';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        color: #fff;
+    }
+    &__descr {
+        margin-top: 32px;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        color: #fff;
+    }
+    &__grid-container {
+        display: grid;
+        grid-template: 341px / 396px;
+        row-gap: 34px;
+        column-gap: 32px;
+        }
+        &__photo {
+            margin-top: 32px;
+            filter: grayscale(100%);
+        }
+        &__wrapper {
+            width: 396px;
+            height: 217px;
+            padding: 32px;
+            background-color: #fff;
+        }
+        &__name {
+            font-family: 'Tele2 DisplaySerif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 38px;
+            text-align: justify;
+            color: $main-color;
+        }
+        &__job {
+            margin-top: 8px;
+            font-family: 'Tele2 DisplaySerif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: justify;
+            color: $second-color;
+        }
+    }
+.prev_big, .next_big {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: -66px;
+    border: none;
+    background-color: $main-color;
+    img {
+        width: 40.29px;
+        height: 51.09px;
+    }
+}
+.next_big {
+    right: -44px;
+    left: auto;
+}
+    
+

@@ -1,0 +1,23 @@
+.button {
+    display: block;
+    width: 219px;
+    height: 58px;
+    background: $second-color;
+    border-radius: 30px;
+    font-family: 'Tele2 TextSans Web SHORT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: $main-color;
+    &:hover {
+        background-color: #829700;
+    }
+    &_map {
+        
+        margin: 32px auto;
+    }
+    &_speakers {
+        margin: 16px auto;
+    }
+}

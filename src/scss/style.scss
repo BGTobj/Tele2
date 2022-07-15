@@ -1,0 +1,28 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/action';
+@import 'blocks/buttons';
+@import 'blocks/map';
+@import 'blocks/forms';
+@import 'blocks/timetable';
+@import 'blocks/speakers';
+@import 'blocks/recomended';
+@import 'blocks/faq';
+@import 'blocks/footer';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+    

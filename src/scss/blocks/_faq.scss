@@ -1,0 +1,78 @@
+.faq {
+    height: 100%;
+    margin-top: 32px;
+    &__title {
+        font-family: 'Standard CT Stencil';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 65px;
+        color: $main-color;
+        text-transform: uppercase;
+    }
+}
+
+.spoiler {
+    &__item {
+        margin-top: 32px;
+        padding: 32px;
+        min-height: 106px;
+        background: $main-color;
+    }
+    &__item.active {
+        background: $second_color;
+    }
+    &__title {
+        position: relative;
+        font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 42px;
+        text-align: justify;    
+        color: #fff;
+        cursor: pointer;
+        &::before, &::after {
+            content: '';
+            width: 14px;
+            height: 2px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: all 0.5s ease 0s;
+        }
+        &::before {
+            transform: rotate(-45deg);
+            right: 0;
+        }
+        &::after {
+            transform: rotate(45deg);
+            right: 9px;
+        }
+    }
+    &__title.active {
+        background:$second-color;
+        color:#000;
+        &::before, &::after {
+            background-color: $main-color;
+        }
+        &::before {
+            transform: rotate(45deg);
+        }
+        &::after {
+            transform: rotate(-45deg);
+        }
+    }
+    &__text {
+        margin-top: 32px;
+        display: none;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        color: $main-color;
+    }  
+}
+

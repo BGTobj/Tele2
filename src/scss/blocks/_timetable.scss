@@ -1,0 +1,65 @@
+.timetable {
+    margin-top: 64px;
+    &__title {
+        font-family: 'Standard CT Stencil';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        color: $main-color;
+    }
+    &__descr {
+        margin-top: 32px;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: $main-color;
+    }
+    &__carousel {
+        margin-top: 32px;
+        &_title {
+            font-family: 'Tele2 DisplaySerif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 38px;
+            text-align: center;
+            color: $main-color;
+        }
+    }
+    .prev, .next {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 14px;
+            height: 16px;
+        }
+    }
+    .next {
+        right: 0px;
+        left: auto;
+    }
+} 
+.grid-container {
+    margin-top: 32px;
+    display: grid;
+    grid-template: 45px 39px 39px / 346px 506px 336px;
+    row-gap: 48px;
+    column-gap: 32px;
+    }
+.grid-elem {
+    font-family: 'Tele2 TextSans Web SHORT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: $main-color;
+    span {
+        color: $second-color;
+    }
+    img {
+        vertical-align: top;
+    }
+}
+     

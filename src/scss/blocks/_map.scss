@@ -1,0 +1,47 @@
+.map {
+    margin-top: 64px;
+    position: relative;
+    height: 703px;
+    z-index: -1;
+    &__img {
+        width: 100%;
+        filter: grayscale(100%);
+    }
+    &__mark {
+        position: absolute;
+        top: 302px;
+        left: 409px;
+    }
+}
+.block {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    z-index: 2;
+    padding: 32px;
+    width: 642px;
+    height: 625.3px;
+    background: #000000;
+    &__title {
+        font-family: 'Standard CT Stencil';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 65px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        margin-top: 32px;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    &__preview {
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

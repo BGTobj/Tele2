@@ -1,0 +1,59 @@
+.recomended {
+    margin-top: 107px;
+    
+    &__title {
+        font-family: 'Standard CT Stencil';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        color: $main-color;
+    }
+    &__descr {
+        margin-top: 32px;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: $main-color;
+    }
+    &__card {
+        display: inline-block;
+        margin-right: 16px;
+        
+    }
+    &__wrapper {
+        width: 396px;
+        padding: 32px;
+        
+    }
+    &__subtitle {
+        font-family: 'Tele2 DisplaySerif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        text-align: justify;
+        color: $main-color;
+    }
+    &__subdescr {
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: $main-color;
+    }
+    &__links {
+        margin-top: 4px;
+        font-family: 'Tele2 TextSans Web SHORT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
